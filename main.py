@@ -28,17 +28,13 @@ print(my_list)
 my_list.insert(3,"bobba bobba")
 print(my_list)
 
-
+my_list2 = ["july" , "karen" , "jugga" , "star trek"]
+my_list3 = my_list + my_list2
+print(my_list3)
 
 
 # Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
-# #append adds an element to the end
-# print(transportation_means)
-# transportation_means.remove("car")
-# print(transportation_means)
 # newTrans = transportation_means.pop()
 # #pop removes the last element
 # print("my new trans is " +newTrans)
@@ -51,30 +47,36 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+my_list4 = luckyNumbers + friends
 ###### print the new list out
-# print(newList2)
+print(my_list4)
 ###### print out the first item in the list
-
+print(my_list4[0])
 ###### remove the last item of the new list
-
+my_list4.pop
 ###### print the new list out without the last item
-
+my_list4.pop()
+print(my_list4)
 ###### add three more items to the end of the list
-
+my_list4.append("jewelry")
+my_list4.append("erick")
+my_list4.append("capi")
+print(my_list4)
 ###### print the last item in the new list
-
+print(my_list4[21])
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-
+my_list4.insert(3,"bobba bobba")
 ###### print the new list out
-
+print(my_list4)
 ##### reverse the list
-
+my_list4.reverse()
 ###### print the new list out
+print(my_list4)
 ###### print out the length of the new list
-
+size = len(my_list4)
+print(size)
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
